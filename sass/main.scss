@@ -1,0 +1,377 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    header {
+        #logo {
+            font-weight: bolder;
+            position: relative;
+        }
+
+        #navbar {
+            background-color: rgb(255, 255, 255);
+            border-bottom: 1px solid;
+        }
+    }
+}
+
+.img-index {
+    width: 100%;
+    padding-top: 30vh;
+}
+
+#footerIndex {
+    position: fixed;
+    font-size: 0.4em;
+    bottom: -3%;
+    padding: 10px;
+    &:hover {
+        font-size: 0.8em;
+    }
+}
+
+.imgProyecto {
+    display: flex;
+    flex-flow: column nowrap;
+    width: 100vw;
+}
+
+.card {
+    border: 1px solid;
+}
+
+a img:last-child {
+    display: none;
+}
+
+a:hover img:last-child {
+    display: block;
+}
+
+a:hover img:first-child {
+    display: none;
+}
+
+#filtros {
+    position: fixed;
+    top: 92%;
+    font-size: 0.8em;
+}
+
+#barato {
+    opacity: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    margin: 2px;
+
+    &:hover {
+        background-color: white;
+    }
+}
+
+#caro {
+    opacity: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    margin: 2px;
+
+    &:hover {
+        background-color: white;
+    }
+}
+
+#r-a {
+    opacity: 100%;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 6px 10px 6px 10px;
+    margin: 2px;
+
+    &:hover {
+        background-color: white;
+    }
+}
+
+#carro-txt {
+    position: fixed;
+    right: 0%;
+    bottom: 5%;
+    font-size: 0.7em;
+
+    h1 {
+        background-color: white;
+        color: black;
+        border: 1px solid;
+        padding: 6px 10px 6px 10px;
+        display: table;
+        border-radius: 5px;
+    }
+
+    h5 {
+        background-color: white;
+        color: black;
+        border: 1px solid;
+        padding: 6px 10px 6px 10px;
+        display: table;
+        border-radius: 5px;
+    }
+
+    p {
+        padding-left: 10px;
+        padding-right: 10px;
+        display: table;
+        border-radius: 5px;
+    }
+
+    #btnCarro {
+        background-color: white;
+        color: black;
+        font-size: small;
+    }
+}
+
+#prueba1 {
+    margin-top: 80%;
+}
+
+#prueba2 {
+    position: fixed;
+    margin-top: 15%;
+
+    h1 {
+        background-color: white;
+        color: black;
+        border: 1px solid;
+        border-radius: 5px;
+        display: table;
+        padding: 6px 10px 6px 10px;
+    }
+
+    p {
+        background-color: white;
+        color: black;
+        border: 1px solid;
+        border-radius: 5px;
+        display: table;
+        padding: 6px 10px 6px 10px;
+    }
+
+    #btnComprarInfo {
+        background-color: white;
+        color: black;
+        font-size: small;
+    }
+
+    #btnMedidasInfo {
+        background-color: white;
+        color: black;
+        font-size: small;
+    }
+}
+
+#modalMedidas {
+    p {
+        text-align: center;
+    }
+}
+
+#modalCompra {
+    p {
+        text-align: center;
+    }
+}
+
+#modalCheckout {
+    p {
+        text-align: center;
+    }
+}
+
+#proyectos {
+    padding-top: 10%;
+}
+
+#carro-container {
+    margin-top: 10%;
+}
+
+#btnEliminar {
+    position: absolute;
+    right: 15%;
+    top: 10%
+}
+
+#underConstruction {
+    position: absolute;
+    top: 50vh;
+    left: 50vw;
+}
+
+@media (min-width: 768px) {
+
+    #icon {
+        position: relative;
+    }
+
+    .img-index {
+        max-width: 100rem;
+        padding-top: 30%
+    }
+
+    #footerIndex {
+        position: fixed;
+        font-size: 0.6em;
+        bottom: -3%;
+        padding: 10px;
+        &:hover {
+            font-size: 1.2em;
+        }
+    }
+
+    .imgProyecto {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 100%;
+    }
+
+    .imgBarro:hover {
+        filter: invert(1);
+    }
+
+    .imgPresente:hover {
+        filter: invert(1);
+    }
+
+    .imgLiquido:hover {
+        filter: invert(1);
+    }
+
+    .imgPrueba:hover {
+        filter: invert(1);
+    }
+
+    .imgJean:hover {
+        filter: invert(1);
+    }
+
+    #proyectos {
+        padding-top: 0%;
+    }
+
+    #cardsShop {
+        margin-top: 5%;
+    }
+
+    #carro-txt {
+        position: fixed;
+        right: 5%;
+        bottom: 45%;
+
+        h1 {
+            background-color: white;
+            border: none;
+            padding: 6px 10px 6px 10px;
+            display: table;
+            border-radius: 5px;
+        }
+
+        h5 {
+            background-color: white;
+            border: none;
+            padding: 6px 10px 6px 10px;
+            display: table;
+            border-radius: 5px;
+        }
+
+        p {
+            padding-left: 10px;
+            padding-right: 10px;
+            display: table;
+            border-radius: 5px;
+        }
+
+        #btnComprarInfo {
+            background-color: black;
+            color: white;
+            font-size: small;
+        }
+
+        #btnMedidasInfo {
+            background-color: black;
+            color: white;
+            font-size: small;
+        }
+    }
+
+    #btnEliminar {
+        position: absolute;
+        right: 30%;
+        top: 5%
+    }
+
+    #prueba1 {
+        margin-top: 7%;
+    }
+
+    #prueba2 {
+        position: relative;
+        margin-top: 10%;
+
+        h1 {
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+            display: table;
+            padding: 6px 10px 6px 10px;
+        }
+
+        p {
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+            display: table;
+            padding: 6px 10px 6px 10px;
+        }
+
+    }
+
+    #filtros {
+        position: relative;
+        left: 0%;
+        font-size: 1em;
+
+        #barato {
+            opacity: 25%;
+            border: none;
+
+            &:hover {
+                opacity: 100%;
+            }
+        }
+
+        #caro {
+            opacity: 25%;
+            border: none;
+
+            &:hover {
+                opacity: 100%;
+            }
+        }
+
+        #r-a {
+            opacity: 25%;
+            border: none;
+
+            &:hover {
+                opacity: 100%;
+            }
+        }
+    }
+
+}
