@@ -50,3 +50,11 @@ function mostrarProductos() {
     selected_img = imagenes[random_index];
     document.getElementById("img12").src = `./images/${selected_img}`;
 };
+
+// CLASE 1
+
+// let numero = prompt('ingresa un numero');
+// let numeroParseado = parseInt(numero);
+// let numeroInventado = 8
+// suma = numeroParseado + numeroInventado;
+// console.log(suma);
